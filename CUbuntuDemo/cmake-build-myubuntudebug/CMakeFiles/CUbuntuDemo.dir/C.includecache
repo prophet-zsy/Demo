@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/admin/Desktop/Demo/CUbuntuDemo/get_sys_info/get_sys_info.c
+get_sys_info.h
+C:/Users/admin/Desktop/Demo/CUbuntuDemo/get_sys_info/get_sys_info.h
+stdio.h
+-
+sys/time.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+unistd.h
+-
+fcntl.h
+-
+stdlib.h
+-
+string.h
+-
+
+C:/Users/admin/Desktop/Demo/CUbuntuDemo/get_sys_info/get_sys_info.h
+

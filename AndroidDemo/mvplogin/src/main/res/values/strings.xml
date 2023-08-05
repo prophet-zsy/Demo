@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVPLogin</string>
+    <string name="login">登陆</string>
+    <string name="default_string">1</string>
+</resources>

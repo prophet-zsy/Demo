@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustomContentProvider</string>
+    <string-array name="table_name">
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
+</resources>

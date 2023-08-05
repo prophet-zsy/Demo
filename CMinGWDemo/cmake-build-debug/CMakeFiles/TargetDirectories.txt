@@ -1,0 +1,3 @@
+C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/CMakeFiles/CDemo.dir
+C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/CMakeFiles/edit_cache.dir

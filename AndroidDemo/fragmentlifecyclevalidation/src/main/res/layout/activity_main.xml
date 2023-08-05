@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--  布局文件中可以直接使用fragment标签，使用name属性指定载入哪个fragment  -->
+    <!--  fragment的id必须设置，因为资源管理会使用  -->
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.fragmentlifecyclevalidation.MyFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/CUbuntuDemo.dir/get_sys_info/get_sys_info.c.o -o CUbuntuDemo 

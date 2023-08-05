@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="022-listviewbysimpleadapter/src/main/res/layout/simple_item.xml" value="0.13177083333333334" />
+        <entry key="024-expandablelistview/src/main/res/layout/activity_main.xml" value="0.28177083333333336" />
+        <entry key="024-expandablelistview/src/main/res/layout/activity_second.xml" value="0.3290754257907543" />
+        <entry key="024-expandablelistview/src/main/res/layout/group_item.xml" value="0.278125" />
+        <entry key="043-popupwindow/src/main/res/layout/activity_main.xml" value="0.32314814814814813" />
+        <entry key="049-popupmenu/src/main/res/menu/popup_menu.xml" value="0.32314814814814813" />
+        <entry key="051-menuonactionbar/src/main/res/layout/activity_main.xml" value="0.28177083333333336" />
+        <entry key="051-menuonactionbar/src/main/res/menu/main_menu.xml" value="0.28177083333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

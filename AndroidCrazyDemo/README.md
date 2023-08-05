@@ -1,0 +1,2 @@
+- 书名  疯狂Android讲义（第四版）   书中包含了大量的例子， 这些例子  将安卓平台的 基础知识 大致勾勒出来
+- 源代码 可以从网上找到   https://github.com/ZhangXinNan/crazy-android/tree/master

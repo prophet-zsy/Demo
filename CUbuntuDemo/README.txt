@@ -1,0 +1,3 @@
+- ubuntu环境下的c语言开发
+- IDE 直接使用 ubuntu下的Clion（破解 <chrome/工具/IDE/无限激活Clion>），不要使用Clion的远程代码功能，debug和run都不方便
+- 编译使用Cmake的使用CLion，编译使用make的，使用VSCode

@@ -1,0 +1,3 @@
+/home/prophet/Desktop/CUbuntuDemo/build/CMakeFiles/CUbuntuDemo.dir
+/home/prophet/Desktop/CUbuntuDemo/build/CMakeFiles/edit_cache.dir
+/home/prophet/Desktop/CUbuntuDemo/build/CMakeFiles/rebuild_cache.dir

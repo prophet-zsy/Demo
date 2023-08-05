@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="字体大小"
+        app:showAsAction="always|withText">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/font_10"
+                    android:title="10号字体"/>
+                <item android:id="@+id/font_12"
+                    android:title="12号字体"/>
+                <item android:id="@+id/font_14"
+                    android:title="14号字体"/>
+                <item android:id="@+id/font_16"
+                    android:title="16号字体"/>
+                <item android:id="@+id/font_18"
+                    android:title="18号字体"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/plain_item"
+        android:title="普通菜单项"
+        app:showAsAction="always|withText"/>
+
+<!--   todo  app:showAsAction="always" 给菜单项设置这个，对应菜单项会显示在ActionBar上，否则菜单项默认在ActionBar右上角的三个点里面   -->
+    <item
+        android:title="字体颜色">
+        <menu>
+            <group>
+                <item android:id="@+id/red"
+                    android:title="红色"/>
+                <item android:id="@+id/green"
+                    android:title="绿色"/>
+                <item android:id="@+id/blue"
+                    android:title="蓝色"/>
+            </group>
+        </menu>
+    </item>
+</menu>

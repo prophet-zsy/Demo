@@ -1,0 +1,2 @@
+- 在该project下新建module后记得修改 模块对应的build.gradle文件下 的编译sdk版本为30以下
+- compileSdkVersion 30

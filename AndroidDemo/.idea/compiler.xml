@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="AndroidDemo.activitya" target="11" />
+      <module name="AndroidDemo.activityb" target="11" />
+      <module name="AndroidDemo.activityservicecommunicatebybroadcast" target="11" />
+      <module name="AndroidDemo.aidllearn" target="11" />
+      <module name="AndroidDemo.animation" target="11" />
+      <module name="AndroidDemo.app" target="11" />
+      <module name="AndroidDemo.audioservice" target="11" />
+      <module name="AndroidDemo.autocompletetextviewlearn" target="11" />
+      <module name="AndroidDemo.binderlearn" target="11" />
+      <module name="AndroidDemo.bindservicethread" target="11" />
+      <module name="AndroidDemo.broadcastreceiver" target="11" />
+      <module name="AndroidDemo.broadcastsend" target="11" />
+      <module name="AndroidDemo.buttonselector" target="11" />
+      <module name="AndroidDemo.componentlearnapp" target="11" />
+      <module name="AndroidDemo.componentlearnLib" target="11" />
+      <module name="AndroidDemo.computeservice" target="11" />
+      <module name="AndroidDemo.customcamera" target="11" />
+      <module name="AndroidDemo.customcontentprovider" target="11" />
+      <module name="AndroidDemo.customcontentprovider2" target="11" />
+      <module name="AndroidDemo.customcontentproviderurimatcher" target="11" />
+      <module name="AndroidDemo.customtitle" target="11" />
+      <module name="AndroidDemo.customview" target="11" />
+      <module name="AndroidDemo.cutsomattr" target="11" />
+      <module name="AndroidDemo.datapath" target="11" />
+      <module name="AndroidDemo.datetimepicker" target="11" />
+      <module name="AndroidDemo.dragbubblelikeqq" target="11" />
+      <module name="AndroidDemo.eventbus" target="11" />
+      <module name="AndroidDemo.filestore" target="11" />
+      <module name="AndroidDemo.floatwindow" target="11" />
+      <module name="AndroidDemo.fragmentlifecyclevalidation" target="11" />
+      <module name="AndroidDemo.glide" target="11" />
+      <module name="AndroidDemo.gradleflavor" target="11" />
+      <module name="AndroidDemo.leakcanarylearn" target="11" />
+      <module name="AndroidDemo.learn" target="11" />
+      <module name="AndroidDemo.learnprofiler" target="11" />
+      <module name="AndroidDemo.loadimageoom" target="11" />
+      <module name="AndroidDemo.login_wait" target="11" />
+      <module name="AndroidDemo.MediaPlayer" target="11" />
+      <module name="AndroidDemo.mvclogin" target="11" />
+      <module name="AndroidDemo.mvplogin" target="11" />
+      <module name="AndroidDemo.mvpshop" target="11" />
+      <module name="AndroidDemo.mvvmdatabinding" target="11" />
+      <module name="AndroidDemo.nestedscrolling" target="11" />
+      <module name="AndroidDemo.networktools" target="11" />
+      <module name="AndroidDemo.notification" target="11" />
+      <module name="AndroidDemo.okhttp" target="11" />
+      <module name="AndroidDemo.oncreatetest" target="11" />
+      <module name="AndroidDemo.pagerouter" target="11" />
+      <module name="AndroidDemo.parentmodule" target="11" />
+      <module name="AndroidDemo.parentmodule.childmodule1" target="11" />
+      <module name="AndroidDemo.pluginskin" target="11" />
+      <module name="AndroidDemo.pluginskinchange" target="11" />
+      <module name="AndroidDemo.popupwindow" target="11" />
+      <module name="AndroidDemo.progressbarandseekbar" target="11" />
+      <module name="AndroidDemo.recyclerview" target="11" />
+      <module name="AndroidDemo.retrofit" target="11" />
+      <module name="AndroidDemo.rxbus" target="11" />
+      <module name="AndroidDemo.rxjava" target="11" />
+      <module name="AndroidDemo.selector" target="11" />
+      <module name="AndroidDemo.serialportpermission" target="11" />
+      <module name="AndroidDemo.servicebase" target="11" />
+      <module name="AndroidDemo.ServiceRequestPermission" target="11" />
+      <module name="AndroidDemo.sharedpreference" target="11" />
+      <module name="AndroidDemo.sqllite" target="11" />
+      <module name="AndroidDemo.statusbar" target="11" />
+      <module name="AndroidDemo.sysbroadcast" target="11" />
+      <module name="AndroidDemo.sysbroadcast2" target="11" />
+      <module name="AndroidDemo.syscontentprovider" target="11" />
+      <module name="AndroidDemo.systemservice" target="11" />
+      <module name="AndroidDemo.takephoto" target="11" />
+      <module name="AndroidDemo.uitestespresso" target="11" />
+      <module name="AndroidDemo.updateViewInOtherThread" target="11" />
+      <module name="AndroidDemo.updownload" target="11" />
+      <module name="AndroidDemo.video" target="11" />
+      <module name="AndroidDemo.videoview" target="1.8" />
+      <module name="AndroidDemo.webview" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="MyUbuntu16.04 (cf15ac8d-1ada-4c7e-849c-fb1dd25230a4)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.SCeBdjjf3s" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-myubuntudebug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-myubuntudebug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-myubuntu1604" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

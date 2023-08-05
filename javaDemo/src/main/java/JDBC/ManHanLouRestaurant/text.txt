@@ -1,0 +1,39 @@
+// todo 看下两种异常有什么区别
+//        throw new RuntimeException(e);
+请输入你的选择：5
+
+java.sql.SQLException: Cannot set billDate: incompatible types, cannot convert java.time.LocalDateTime to java.util.Date Query: select * from bill Parameters: []
+	at org.apache.commons.dbutils.AbstractQueryRunner.rethrow(AbstractQueryRunner.java:527)
+	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:391)
+	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:252)
+	at JDBC.ManHanLouRestaurant.DAO.BasicDAO.queryMulti(BasicDAO.java:38)
+	at JDBC.ManHanLouRestaurant.Service.BillService.list(BillService.java:16)
+	at JDBC.ManHanLouRestaurant.View.MHLView.listBill(MHLView.java:97)
+	at JDBC.ManHanLouRestaurant.View.MHLView.mainMenu(MHLView.java:70)
+	at JDBC.ManHanLouRestaurant.View.MHLView.main(MHLView.java:26)
+Exception in thread "main" java.lang.NullPointerException
+	at JDBC.ManHanLouRestaurant.View.MHLView.listBill(MHLView.java:99)
+	at JDBC.ManHanLouRestaurant.View.MHLView.mainMenu(MHLView.java:70)
+	at JDBC.ManHanLouRestaurant.View.MHLView.main(MHLView.java:26)
+编号	菜品号	菜品量	金额	桌号	日期	状态
+
+Process finished with exit code 1
+
+
+//            e.printStackTrace();
+
+请输入你的选择：5
+Exception in thread "main" java.lang.RuntimeException: java.sql.SQLException: Cannot set billDate: incompatible types, cannot convert java.time.LocalDateTime to java.util.Date Query: select * from bill Parameters: []
+	at JDBC.ManHanLouRestaurant.DAO.BasicDAO.queryMulti(BasicDAO.java:40)
+	at JDBC.ManHanLouRestaurant.Service.BillService.list(BillService.java:16)
+	at JDBC.ManHanLouRestaurant.View.MHLView.listBill(MHLView.java:97)
+	at JDBC.ManHanLouRestaurant.View.MHLView.mainMenu(MHLView.java:70)
+	at JDBC.ManHanLouRestaurant.View.MHLView.main(MHLView.java:26)
+Caused by: java.sql.SQLException: Cannot set billDate: incompatible types, cannot convert java.time.LocalDateTime to java.util.Date Query: select * from bill Parameters: []
+	at org.apache.commons.dbutils.AbstractQueryRunner.rethrow(AbstractQueryRunner.java:527)
+	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:391)
+	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:252)
+	at JDBC.ManHanLouRestaurant.DAO.BasicDAO.queryMulti(BasicDAO.java:38)
+	... 4 more
+
+Process finished with exit code 1

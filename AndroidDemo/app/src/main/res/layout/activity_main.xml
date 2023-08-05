@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我"/>
+            <CheckBox
+                android:id="@+id/love"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="爱"/>
+            <CheckBox
+                android:id="@+id/lianyali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="练娅莉"/>
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="进度条对话框"
+                    android:onClick="displayProgressDialog"/>
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="自定义对话框"
+                    android:onClick="displayCustomDialog"/>
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button" />
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="列表对话框"
+                    android:onClick="displayListDialog"/>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="单选对话框"
+                    android:onClick="displayListDialog"/>
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="多选对话框"
+                    android:onClick="displayListDialog"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="显示经典对话框"
+                    android:onClick="displayDialog"/>
+
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="显示多按钮对话框"
+                    android:onClick="displayDialog"/>
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button" />
+            </TableRow>
+
+            <Button
+                android:id="@+id/changeFrag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="更改frag内容" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="显示Toast"
+                    android:onClick="displayToast"/>
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="显示构造的Toast"
+                    android:onClick="displayToast"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="显示带图标的toast"
+                    android:onClick="displayToast"/>
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button" />
+            </TableRow>
+
+        </TableLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="5"
+            android:columnCount="2">
+
+            <Button
+                android:id="@+id/XMLpaser"
+                android:text="解析XML"
+                android:onClick="jsonParser">
+            </Button>
+            <Button
+                android:id="@+id/showXML"
+                android:text="1">
+            </Button>
+            <Button
+                android:id="@+id/showIdx"
+                android:text="1">
+            </Button>
+            <Button
+                android:id="@+id/syncWork"
+                android:text="异步完成工作">
+            </Button>
+
+            <Button
+                android:id="@+id/transActivity2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动activity2" />
+
+            <Button
+                android:id="@+id/transSysActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="调用系统Activity" />
+
+            <Button
+                android:id="@+id/StartActivityForResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="StartActivityForResult" />
+
+            <Button
+                android:id="@+id/transMainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="进入MainActivity" />
+
+            <Button
+                android:id="@+id/SingTopActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="进入SingTopActivity" />
+
+            <Button
+                android:id="@+id/SingTaskActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="进入SingTaskActivity" />
+
+            <Button
+                android:id="@+id/SingInsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="进入SingInsActivity" />
+
+            <Button
+                android:id="@+id/SingInsActivity2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="进入SingInsActivity2" />
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/activity_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="这里显示activity的id"/>
+
+        <fragment
+            android:id="@+id/frag1"
+            android:name="com.example.testt.MyFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:tag="frag_tag"
+            android:name="com.example.testt.MyFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/addFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="addFrag"
+            android:onClick="operateFrag"/>
+
+        <Button
+            android:id="@+id/removeFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="removeFrag"
+            android:onClick="operateFrag"/>
+
+        <Button
+            android:id="@+id/hideOrShowFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hideOrShowFrag"
+            android:onClick="operateFrag"/>
+
+        <Button
+            android:id="@+id/replaceFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="replaceFrag"
+            android:onClick="operateFrag"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/showDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showDialog"
+        android:onClick="showDialogOrFragment"/>
+
+    <Button
+        android:id="@+id/showListDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showListDialog"
+        android:onClick="showDialogOrFragment"/>
+
+    <FrameLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:id="@+id/matchPhoneTablet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="matchPhoneTablet"
+        android:onClick="matchPhoneTablet"/>
+
+    <Button
+        android:id="@+id/viewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="viewPager"
+        android:onClick="viewPager"/>
+
+    <Button
+        android:id="@+id/viewPager2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="viewPager2"
+        android:onClick="viewPager"/>
+
+    <Button
+        android:id="@+id/drawerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="drawerLayout"
+        android:onClick="drawerLayout"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

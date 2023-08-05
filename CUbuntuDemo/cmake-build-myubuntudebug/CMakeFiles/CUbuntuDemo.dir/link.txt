@@ -1,0 +1,3 @@
+"C:\software\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CUbuntuDemo.dir/objects.a
+C:\software\mingw64\bin\ar.exe cr CMakeFiles\CUbuntuDemo.dir/objects.a @CMakeFiles\CUbuntuDemo.dir\objects1.rsp
+C:\software\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\CUbuntuDemo.dir/objects.a -Wl,--no-whole-archive -o CUbuntuDemo.exe -Wl,--out-implib,libCUbuntuDemo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CUbuntuDemo.dir\linklibs.rsp

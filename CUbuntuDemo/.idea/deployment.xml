@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="MyUbuntu16.04 (cf15ac8d-1ada-4c7e-849c-fb1dd25230a4)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="MyUbuntu16.04 (cf15ac8d-1ada-4c7e-849c-fb1dd25230a4)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/CUbuntuDemo" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

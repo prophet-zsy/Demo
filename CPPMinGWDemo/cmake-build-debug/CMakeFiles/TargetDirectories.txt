@@ -1,0 +1,10 @@
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/cmake-build-debug/CMakeFiles/CPPMinGWDemo.dir
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/cmake-build-debug/CMakeFiles/CGrammar.dir
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/cmake-build-debug/CMakeFiles/cppGrammar.dir
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/cmake-build-debug/CMakeFiles/DemoOperator.dir
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/cmake-build-debug/CMakeFiles/demo_ptr_ref.dir
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/cmake-build-debug/CMakeFiles/Sort.dir
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/cmake-build-debug/CMakeFiles/OJ.dir
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/cmake-build-debug/CMakeFiles/Algorithm.dir
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

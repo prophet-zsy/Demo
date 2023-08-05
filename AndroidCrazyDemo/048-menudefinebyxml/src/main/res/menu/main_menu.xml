@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--   todo  menu 相当于菜单， item 相当于菜单项， 子菜单 需要将menu套在item中使用   -->
+
+    <item android:title="字体大小">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/font_10"
+                    android:title="10号字体"/>
+                <item android:id="@+id/font_12"
+                    android:title="12号字体"/>
+                <item android:id="@+id/font_14"
+                    android:title="14号字体"/>
+                <item android:id="@+id/font_16"
+                    android:title="16号字体"/>
+                <item android:id="@+id/font_18"
+                    android:title="18号字体"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/plain_item"
+        android:title="普通菜单项"/>
+
+    <item android:title="字体颜色">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/font_red"
+                    android:title="红色字体"/>
+                <item android:id="@+id/font_green"
+                    android:title="绿色字体"/>
+                <item android:id="@+id/font_blue"
+                    android:title="蓝色字体"/>
+            </group>
+        </menu>
+    </item>
+</menu>

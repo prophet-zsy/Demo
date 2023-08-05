@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    todo   AutoCompleteTextView和MultiAutoCompleteTextView 两个组件自带前缀匹配  -->
+
+    <AutoCompleteTextView
+        android:id="@+id/auto"
+        android:completionHint="请选择您喜欢的图书"
+        android:completionThreshold="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/mauto"
+        android:completionThreshold="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/autoButton"
+        android:text="auto 提交并加入推荐列表"
+        android:onClick="submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/mautoButton"
+        android:text="mauto 提交并加入推荐列表"
+        android:onClick="submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout> 

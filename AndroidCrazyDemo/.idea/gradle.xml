@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/001-uibycode" />
+            <option value="$PROJECT_DIR$/002-imagebrowser" />
+            <option value="$PROJECT_DIR$/003-ballfollowyourfinger" />
+            <option value="$PROJECT_DIR$/004-richtablelayout" />
+            <option value="$PROJECT_DIR$/005-neonlights" />
+            <option value="$PROJECT_DIR$/006-plumlayout" />
+            <option value="$PROJECT_DIR$/007-calculator" />
+            <option value="$PROJECT_DIR$/009-differentformattext" />
+            <option value="$PROJECT_DIR$/010-textviewwithborderandbackground" />
+            <option value="$PROJECT_DIR$/011-userfriendlyinputui" />
+            <option value="$PROJECT_DIR$/012-allkindsofbutton" />
+            <option value="$PROJECT_DIR$/013-radiobuttonandcheckbox" />
+            <option value="$PROJECT_DIR$/014-dynamiccontrollayout" />
+            <option value="$PROJECT_DIR$/015-analogclocktextclockChronometer" />
+            <option value="$PROJECT_DIR$/016-imagebrowser" />
+            <option value="$PROJECT_DIR$/017-imagebuttonandzoombutton" />
+            <option value="$PROJECT_DIR$/018-quickcontactbadge" />
+            <option value="$PROJECT_DIR$/019-floatingactionbutton" />
+            <option value="$PROJECT_DIR$/020-listview" />
+            <option value="$PROJECT_DIR$/021-listviewbyarrayadapter" />
+            <option value="$PROJECT_DIR$/022-listviewbysimpleadapter" />
+            <option value="$PROJECT_DIR$/023-autocompletetextview" />
+            <option value="$PROJECT_DIR$/024-expandablelistview" />
+            <option value="$PROJECT_DIR$/025-adapterviewflipper" />
+            <option value="$PROJECT_DIR$/026-stackview" />
+            <option value="$PROJECT_DIR$/027-recyclerview" />
+            <option value="$PROJECT_DIR$/028-progressbar" />
+            <option value="$PROJECT_DIR$/029-seekbar" />
+            <option value="$PROJECT_DIR$/030-ratingbar" />
+            <option value="$PROJECT_DIR$/031-viewswitcher" />
+            <option value="$PROJECT_DIR$/032-imageswitcher" />
+            <option value="$PROJECT_DIR$/033-viewflipper" />
+            <option value="$PROJECT_DIR$/034-toastwithimage" />
+            <option value="$PROJECT_DIR$/035-calenderchooseyourbirthday" />
+            <option value="$PROJECT_DIR$/036-datepickerandtimepicker" />
+            <option value="$PROJECT_DIR$/037-numberpicker" />
+            <option value="$PROJECT_DIR$/038-searchview" />
+            <option value="$PROJECT_DIR$/039-scrollview" />
+            <option value="$PROJECT_DIR$/040-notification" />
+            <option value="$PROJECT_DIR$/041-alertdialog" />
+            <option value="$PROJECT_DIR$/042-activitylikedialog" />
+            <option value="$PROJECT_DIR$/043-popupwindow" />
+            <option value="$PROJECT_DIR$/044-datepickerdialogandtimepickerdialog" />
+            <option value="$PROJECT_DIR$/045-menu" />
+            <option value="$PROJECT_DIR$/046-menuandactivity" />
+            <option value="$PROJECT_DIR$/047-contextmenu" />
+            <option value="$PROJECT_DIR$/048-menudefinebyxml" />
+            <option value="$PROJECT_DIR$/049-popupmenu" />
+            <option value="$PROJECT_DIR$/050-actionbar" />
+            <option value="$PROJECT_DIR$/051-menuonactionbar" />
+            <option value="$PROJECT_DIR$/052-actionview" />
+            <option value="$PROJECT_DIR$/054-controlplane" />
+            <option value="$PROJECT_DIR$/055-sendsmslistenerbyoutterclass" />
+            <option value="$PROJECT_DIR$/056-listenerbylambda" />
+            <option value="$PROJECT_DIR$/057-ontouchevent" />
+            <option value="$PROJECT_DIR$/058-getdevicestate" />
+            <option value="$PROJECT_DIR$/059-listenscreenorientation" />
+            <option value="$PROJECT_DIR$/061-computeprimenum" />
+            <option value="$PROJECT_DIR$/062-asynctask" />
+            <option value="$PROJECT_DIR$/063-launcheractivity" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

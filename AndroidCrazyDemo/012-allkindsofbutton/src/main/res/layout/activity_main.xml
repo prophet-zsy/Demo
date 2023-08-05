@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    todo Button 继承自TextView-->
+    <!--    todo 使用Button生成的按钮 不仅可以是普通的文字按钮，也可以定制称任意形状任意颜色，并可以随用户的交互动作改变外观-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文字带阴影的按钮"
+        android:textSize="12pt"
+        android:shadowColor="#aa5"
+        android:shadowRadius="1"
+        android:shadowDy="5"
+        android:shadowDx="5"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="普通按钮"
+        android:textSize="10pt"
+        android:background="@drawable/red_circle"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="背景反应按钮状态"
+        android:textSize="10pt"
+        android:background="@drawable/button_selector" />
+
+</LinearLayout>

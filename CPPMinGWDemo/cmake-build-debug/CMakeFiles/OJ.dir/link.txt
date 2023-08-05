@@ -1,0 +1,3 @@
+"C:\software\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\OJ.dir/objects.a
+C:\software\mingw64\bin\ar.exe cr CMakeFiles\OJ.dir/objects.a @CMakeFiles\OJ.dir\objects1.rsp
+C:\software\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\OJ.dir/objects.a -Wl,--no-whole-archive -o OJ.exe -Wl,--out-implib,libOJ.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OJ.dir\linklibs.rsp

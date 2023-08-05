@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/img222"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"/>
+
+<!--  RatingBar  也继承自 ProgressBar， 星级评分条 与 拖动条 SeekBar 类似  -->
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<!--    stepSize="0.5" 指定了变化步长最少为半个星级     numStars="5"  指定星星总个数为5  -->
+
+</LinearLayout> 

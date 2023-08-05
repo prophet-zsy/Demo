@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/main.c
+stdio.h
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/stdio.h
+

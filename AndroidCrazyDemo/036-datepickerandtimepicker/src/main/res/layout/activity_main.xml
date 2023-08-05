@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择购买本书的具体时间：" />
+
+<!--     DatePicker 和 TimePicker 的大小 往往是固定的， 没有办法更改，
+ 但可以通过设置datePickerMode和timePickerMode来更换成spinner模式， 这样更节省空间
+  -->
+
+    <DatePicker
+        android:id="@+id/date_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal" />
+<!--    android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+-->
+    <TimePicker
+        android:id="@+id/time_picker"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+<!--    android:timePickerMode="spinner"
+-->
+
+</LinearLayout> 

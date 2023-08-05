@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/centerIcon"
+        android:background="@drawable/ic_launcher_foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+<!--    layout_centerInParent 在父容器中居中-->
+    <TextView
+        android:background="@drawable/ic_launcher_foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/centerIcon"
+        android:layout_alignStart="@id/centerIcon"/>
+<!--    layout_above 在兄弟控件之上，如果需要离开一段距离，设置margin即可；layout_alignStart 与兄弟控件左边缘对齐 -->
+    <TextView
+        android:background="@drawable/ic_launcher_foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/centerIcon"
+        android:layout_alignStart="@id/centerIcon"/>
+<!--    layout_below 在兄弟控件之下，如果需要离开一段距离，设置margin即可；layout_alignStart 与兄弟控件左边缘对齐 -->
+    <TextView
+        android:background="@drawable/ic_launcher_foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/centerIcon"
+        android:layout_alignTop="@id/centerIcon"/>
+<!--    layout_toStartOf 在兄弟控件之左，如果需要离开一段距离，设置margin即可；layout_alignTop 与兄弟控件上边缘对齐 -->
+    <TextView
+        android:background="@drawable/ic_launcher_foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/centerIcon"
+        android:layout_alignTop="@id/centerIcon"/>
+<!--    layout_toEndOf 在兄弟控件之右，如果需要离开一段距离，设置margin即可；layout_alignTop 与兄弟控件上边缘对齐 -->
+</RelativeLayout>

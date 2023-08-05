@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/cppGrammar/DemoOperator.cpp
+iostream
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/cppGrammar/iostream
+

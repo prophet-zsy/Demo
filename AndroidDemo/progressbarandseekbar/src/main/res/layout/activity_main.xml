@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    ProgressBar 默认是圆形-->
+    <ProgressBar
+        android:id="@+id/progress1"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <ProgressBar
+        android:id="@+id/progress2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:progress="50"
+        android:progressTint="@color/colorPrimary"
+        android:progressBackgroundTint="@color/colorPrimaryDark"/>
+    <!--     progressTint 进度色调， progressBackgroundTint 进度条背景色调， 只能设置颜色，不能设置图片     -->
+    <!--    todo 目前尚未找到使用drawable元素装饰进度条的用法  -->
+
+    <ProgressBar
+        android:id="@+id/progress3"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <ProgressBar
+        android:id="@+id/progress4"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:progress="50"
+        android:layout_width="200dp"
+        android:layout_height="20dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="200dp"
+        android:layout_height="20dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="200dp"
+        android:layout_height="20dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar4"
+        android:layout_width="200dp"
+        android:layout_height="20dp" />
+
+</LinearLayout>

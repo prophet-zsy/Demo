@@ -1,0 +1,3 @@
+"C:\software\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CDemo.dir/objects.a
+C:\software\mingw64\bin\ar.exe cr CMakeFiles\CDemo.dir/objects.a @CMakeFiles\CDemo.dir\objects1.rsp
+C:\software\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\CDemo.dir/objects.a -Wl,--no-whole-archive -o CDemo.exe -Wl,--out-implib,libCDemo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CDemo.dir\linklibs.rsp

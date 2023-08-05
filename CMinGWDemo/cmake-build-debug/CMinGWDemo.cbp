@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CMinGWDemo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CDemo">
+				<Option output="C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/CDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 CDemo"/>
+					<CompileFile command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CDemo/fast">
+				<Option output="C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/CDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 CDemo/fast"/>
+					<CompileFile command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/software/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Demo/CMinGWDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/admin/Desktop/Demo/CMinGWDemo/header_source_test/src/header_test.c">
+			<Option target="CDemo"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/Desktop/Demo/CMinGWDemo/main.c">
+			<Option target="CDemo"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/Desktop/Demo/CMinGWDemo/smart_ptr/xxx_ptr_test.cpp">
+			<Option target="CDemo"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/Desktop/Demo/CMinGWDemo/smart_ptr/xxx_ptr_test.h">
+			<Option target="CDemo"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/Desktop/Demo/CMinGWDemo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--  todo  AdapterViewFlipper 的继承链：AdapterViewFlipper - AdapterViewAnimator - AdapterView - ViewGroup  -->
+<!--  todo  ViewFlipper 的继承链：ViewFlipper - ViewAnimator - FrameLayout - ViewGroup   -->
+<!--  todo  AdapterViewFlipper 通过设置adapter装填子View， ViewFlipper 直接自己addView就好 ， 两者均可以设置切换动画，xml属性基本相同  -->
+
+    <!--    AdapterViewFlipper 是 AdapterViewAnimator 的子类 -->
+    <AdapterViewFlipper
+        android:id="@+id/adapterViewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="1000" />
+<!--    flipInterval="1000"  自动播放的时间间隔为1s  -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/last"
+            android:onClick="last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="上一个" />
+
+        <Button
+            android:id="@+id/next"
+            android:onClick="next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="下一个" />
+
+        <Button
+            android:id="@+id/autoPlay"
+            android:onClick="autoPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="自动播放" />
+
+    </LinearLayout>
+
+</FrameLayout>

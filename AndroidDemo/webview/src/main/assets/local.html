@@ -1,0 +1,28 @@
+<html>
+<head>
+    <!--从assert中加载的中文网页会出现乱码，解决办法就是给html指定编码-->
+    <meta http-equlv="Content-Type" content="text/html;charset=UTF-8">
+    <title>
+        local html
+    </title>
+
+</head>
+
+<body id="p">
+
+h5 页面 ：  hello World !
+
+<br />
+
+<input type="button" value="Js调用Java代码" onclick="window.android.showToastAndroid('args from js')">
+
+</body>
+<script type="text/javascript">
+  function sum(a, b) {
+    let res = a + b;
+    alert("From android to js, and the return val is  " + res);
+    return res;
+  }
+
+</script>
+</html>

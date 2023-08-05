@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    menu 相当于菜单， item 相当于菜单项， 子菜单 需要将menu套在item中使用   -->
+
+<!--    group 为 对 多个item 的 修饰，非必须   -->
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/red"
+            android:title="红色背景"/>
+        <item android:id="@+id/green"
+            android:title="绿色背景"/>
+        <item android:id="@+id/blue"
+            android:title="蓝色背景"/>
+    </group>
+
+</menu>

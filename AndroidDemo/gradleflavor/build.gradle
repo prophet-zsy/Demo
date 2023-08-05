@@ -1,0 +1,79 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion "31.0.0"
+
+    defaultConfig {
+        applicationId "com.sunmi.gradleflavor"
+        minSdkVersion 21
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+//   【Android Gradle flavor —— 打造不同风味的app】https://juejin.cn/post/7031399811173744648
+//    【Android 使用 productFlavors 实现 AndroidManifest.xml 差异化】https://www.jianshu.com/p/6426fb27e46d
+    //定义风味维度  (多个维度，每个维度选择一个值， 不同维度进行组合)
+    flavorDimensions "channel", "scenes"
+
+    //声明产品风味
+    productFlavors {
+        //声明风味
+        huawei {
+            //指定风味维度
+            dimension "channel"
+        }
+        xiaomi {
+            dimension "channel"
+        }
+        wechat {
+            dimension "scenes"
+        }
+        zhifubao {
+            dimension "scenes"
+        }
+    }
+    //    过滤掉一些不需要的组合
+    variantFilter { variant ->
+        //获取变体中的风味
+        def flavors = variant.flavors
+        def channelFlavor=flavors[0].name
+        def scenesFlavor=flavors[1].name
+        switch (channelFlavor){
+            case "huawei":
+                if (scenesFlavor != "wechat") setIgnore(true)/*忽略huawei 和 非 wechat 的所有组合*/
+                break
+            case "xiaomi":
+                if (scenesFlavor == "wechat") setIgnore(true)/*忽略xiaomi 和 wechat 的组合*/
+                break
+        }
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+//    huaweiImplementation('XXXXXXX') // 只有华为风味才会依赖 此 sdk，不选华为风味则不会将该sdk打进包中
+//    xiaomiImplementation('XXXXXXX') // 只有小米风味才会依赖 此 sdk，不选小米风味则不会将该sdk打进包中
+}

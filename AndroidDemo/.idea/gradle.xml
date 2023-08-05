@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/HandlerLearn" />
+            <option value="$PROJECT_DIR$/MediaPlayer" />
+            <option value="$PROJECT_DIR$/ServiceRequestPermission" />
+            <option value="$PROJECT_DIR$/activitya" />
+            <option value="$PROJECT_DIR$/activityb" />
+            <option value="$PROJECT_DIR$/activityservicecommunicatebybroadcast" />
+            <option value="$PROJECT_DIR$/aidllearn" />
+            <option value="$PROJECT_DIR$/animation" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/audioservice" />
+            <option value="$PROJECT_DIR$/autocompletetextviewlearn" />
+            <option value="$PROJECT_DIR$/binderlearn" />
+            <option value="$PROJECT_DIR$/bindservicethread" />
+            <option value="$PROJECT_DIR$/broadcastreceiver" />
+            <option value="$PROJECT_DIR$/broadcastsend" />
+            <option value="$PROJECT_DIR$/buttonselector" />
+            <option value="$PROJECT_DIR$/componentlearnLib" />
+            <option value="$PROJECT_DIR$/componentlearnapp" />
+            <option value="$PROJECT_DIR$/computeservice" />
+            <option value="$PROJECT_DIR$/customcamera" />
+            <option value="$PROJECT_DIR$/customcontentprovider" />
+            <option value="$PROJECT_DIR$/customcontentprovider2" />
+            <option value="$PROJECT_DIR$/customcontentproviderurimatcher" />
+            <option value="$PROJECT_DIR$/customtitle" />
+            <option value="$PROJECT_DIR$/customview" />
+            <option value="$PROJECT_DIR$/cutsomattr" />
+            <option value="$PROJECT_DIR$/datapath" />
+            <option value="$PROJECT_DIR$/datetimepicker" />
+            <option value="$PROJECT_DIR$/dragbubblelikeqq" />
+            <option value="$PROJECT_DIR$/eventbus" />
+            <option value="$PROJECT_DIR$/filestore" />
+            <option value="$PROJECT_DIR$/floatwindow" />
+            <option value="$PROJECT_DIR$/fragmentlifecyclevalidation" />
+            <option value="$PROJECT_DIR$/glide" />
+            <option value="$PROJECT_DIR$/gradleflavor" />
+            <option value="$PROJECT_DIR$/leakcanarylearn" />
+            <option value="$PROJECT_DIR$/learn" />
+            <option value="$PROJECT_DIR$/learnprofiler" />
+            <option value="$PROJECT_DIR$/loadapkinapp" />
+            <option value="$PROJECT_DIR$/loadimageoom" />
+            <option value="$PROJECT_DIR$/login_wait" />
+            <option value="$PROJECT_DIR$/mvclogin" />
+            <option value="$PROJECT_DIR$/mvplogin" />
+            <option value="$PROJECT_DIR$/mvpshop" />
+            <option value="$PROJECT_DIR$/mvvmdatabinding" />
+            <option value="$PROJECT_DIR$/nestedscrolling" />
+            <option value="$PROJECT_DIR$/networktools" />
+            <option value="$PROJECT_DIR$/notification" />
+            <option value="$PROJECT_DIR$/okhttp" />
+            <option value="$PROJECT_DIR$/oncreatetest" />
+            <option value="$PROJECT_DIR$/pagerouter" />
+            <option value="$PROJECT_DIR$/parentmodule" />
+            <option value="$PROJECT_DIR$/parentmodule/childmodule1" />
+            <option value="$PROJECT_DIR$/pluginskin" />
+            <option value="$PROJECT_DIR$/pluginskinchange" />
+            <option value="$PROJECT_DIR$/popupwindow" />
+            <option value="$PROJECT_DIR$/progressbarandseekbar" />
+            <option value="$PROJECT_DIR$/recyclerview" />
+            <option value="$PROJECT_DIR$/retrofit" />
+            <option value="$PROJECT_DIR$/rxbus" />
+            <option value="$PROJECT_DIR$/rxjava" />
+            <option value="$PROJECT_DIR$/selector" />
+            <option value="$PROJECT_DIR$/servicebase" />
+            <option value="$PROJECT_DIR$/sharedpreference" />
+            <option value="$PROJECT_DIR$/sqllite" />
+            <option value="$PROJECT_DIR$/statusbar" />
+            <option value="$PROJECT_DIR$/sysbroadcast" />
+            <option value="$PROJECT_DIR$/sysbroadcast2" />
+            <option value="$PROJECT_DIR$/syscontentprovider" />
+            <option value="$PROJECT_DIR$/systemservice" />
+            <option value="$PROJECT_DIR$/takephoto" />
+            <option value="$PROJECT_DIR$/uitestespresso" />
+            <option value="$PROJECT_DIR$/updateViewInOtherThread" />
+            <option value="$PROJECT_DIR$/updownload" />
+            <option value="$PROJECT_DIR$/video" />
+            <option value="$PROJECT_DIR$/webview" />
+            <option value="$PROJECT_DIR$/xmlpullparser" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

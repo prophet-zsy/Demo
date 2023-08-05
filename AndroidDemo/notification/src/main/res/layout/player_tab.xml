@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:id="@+id/music_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:text="歌名"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/music_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="15dp"
+        android:text="作者名"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp">
+
+        <ImageView
+            android:id="@+id/last_music"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:layout_toStartOf="@id/playFrame"
+            android:src="@mipmap/ic_last_music" />
+
+        <FrameLayout
+            android:id="@+id/playFrame"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_toStartOf="@id/next_music"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp">
+            <ImageView
+                android:id="@+id/play"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/ic_play" />
+            <ProgressBar
+                android:id="@+id/downloadProgress"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:indeterminateTintMode="src_atop"
+                android:indeterminateTint="@color/colorGray"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/next_music"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:src="@mipmap/ic_next_music" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

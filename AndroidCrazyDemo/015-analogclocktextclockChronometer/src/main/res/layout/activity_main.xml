@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--    todo  AnalogClock 模拟时钟在高版本中已经废弃了，如果需要使用模拟时钟，可以通过自定义View来实现  -->
+<!--    <AnalogClock-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="wrap_content"/>-->
+
+<!--   TextClock 电子时钟 与 Chronometer 计时器 也继承自TextView -->
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:textColor="#f0f"
+        android:format12Hour="yyyy年MM月dd日 HH:mm EEEE"
+        android:drawableEnd="@drawable/ic_launcher_foreground"/>
+
+    <Chronometer
+        android:id="@+id/chronometerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="启动"
+        android:onClick="chronometerStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:gravity="center"
+        android:numColumns="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--    ImageSwitcher  继承了 ViewSwitcher， 可以在切换view组件时使用动画效果-->
+    <!--    ImageSwitcher  和 ImageView 功能有点相似，它们都可以显示图片，但是ImageSwitcher可以指定图片切换时的动画效果  -->
+
+    <ImageSwitcher
+        android:id="@+id/image_switcher"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:inAnimation="@android:anim/fade_in"
+        android:outAnimation="@android:anim/fade_out"/>
+
+</LinearLayout> 

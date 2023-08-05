@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.testt">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".DrawerLayoutActivity" />
+        <activity android:name=".FixedTabActivity" />
+        <activity android:name=".ViewPagerActivity" />
+        <activity android:name=".SelectedActivity" />
+        <activity android:name=".PhoneTabletActivity" />
+        <activity
+            android:name=".SingleInsActivity2"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".SingleInsActivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".SingleTaskActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".SingTopActivity"
+            android:launchMode="singleTop" /> <!-- <activity -->
+        <!-- android:name=".Main2Activity" -->
+        <!-- android:label="@string/title_activity_main2" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity">
+            <intent-filter>
+                <action android:name="second" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.test" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ThirdActivity">
+            <intent-filter>
+                <action android:name="second" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

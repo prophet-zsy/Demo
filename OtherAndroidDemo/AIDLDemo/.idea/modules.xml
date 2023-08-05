@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AIDLDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/AIDLDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AIDLDemo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AIDLDemo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AIDLDemo.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AIDLDemo.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AIDLDemo.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AIDLDemo.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AIDLDemo.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AIDLDemo.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rsclient/AIDLDemo.rsclient.iml" filepath="$PROJECT_DIR$/.idea/modules/rsclient/AIDLDemo.rsclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rsclient/AIDLDemo.rsclient.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/rsclient/AIDLDemo.rsclient.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rsclient/AIDLDemo.rsclient.main.iml" filepath="$PROJECT_DIR$/.idea/modules/rsclient/AIDLDemo.rsclient.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rsclient/AIDLDemo.rsclient.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/rsclient/AIDLDemo.rsclient.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rsserver/AIDLDemo.rsserver.iml" filepath="$PROJECT_DIR$/.idea/modules/rsserver/AIDLDemo.rsserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rsserver/AIDLDemo.rsserver.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/rsserver/AIDLDemo.rsserver.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rsserver/AIDLDemo.rsserver.main.iml" filepath="$PROJECT_DIR$/.idea/modules/rsserver/AIDLDemo.rsserver.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rsserver/AIDLDemo.rsserver.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/rsserver/AIDLDemo.rsserver.unitTest.iml" />
+    </modules>
+  </component>
+</project>

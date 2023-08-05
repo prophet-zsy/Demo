@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/admin/Desktop/Demo/CMinGWDemo/header_source_test/include/header_test.h
+
+C:/Users/admin/Desktop/Demo/CMinGWDemo/main.c
+stdio.h
+-
+header_source_test/include/header_test.h
+C:/Users/admin/Desktop/Demo/CMinGWDemo/header_source_test/include/header_test.h
+smart_ptr/xxx_ptr_test.h
+C:/Users/admin/Desktop/Demo/CMinGWDemo/smart_ptr/xxx_ptr_test.h
+
+C:/Users/admin/Desktop/Demo/CMinGWDemo/smart_ptr/xxx_ptr_test.h
+

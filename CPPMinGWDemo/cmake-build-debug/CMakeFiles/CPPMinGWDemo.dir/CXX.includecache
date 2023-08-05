@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/B/b.h
+
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/main.cpp
+cassert
+-
+cstdio
+-
+string
+-
+B/b.h
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/B/b.h
+

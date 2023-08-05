@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MVVMDatabinding</string>
+    <string name="add_fans">添加粉丝</string>
+</resources>

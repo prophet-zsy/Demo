@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="star"
+            type="com.example.mvvmdatabinding.bean.Star" />
+
+        <variable
+            name="star2"
+            type="com.example.mvvmdatabinding.bean.Star2" />
+
+        <variable
+            name="star3"
+            type="androidx.databinding.ObservableArrayMap" />
+
+        <variable
+            name="star4"
+            type="com.example.mvvmdatabinding.Star4ViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text='@{star.name + " " + star.fanNum}' />
+        <!--可能是通过反射访问数据，所以不需要使用get方法获取字段-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text='@{star2.getName() + " " + star2.getFanNum()}' />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text='@{star3.get("name") + " " + star3.get("fanNum")}' />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text='@{star4.getMutableLiveData().name + " " + star4.getMutableLiveData().fanNum}' />
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:text='@{star4.getMutableLiveData().name + " " + star4.getMutableLiveData().fanNum}' />-->
+
+    </LinearLayout>
+
+</layout>
+
+
+

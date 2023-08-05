@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--  todo  AdapterViewFlipper 的继承链：AdapterViewFlipper - AdapterViewAnimator - AdapterView - ViewGroup  -->
+<!--  todo  ViewFlipper 的继承链：ViewFlipper - ViewAnimator - FrameLayout - ViewGroup   -->
+<!--  todo  AdapterViewFlipper 通过设置adapter装填子View， ViewFlipper 直接自己addView就好 ， 两者均可以设置切换动画，xml属性基本相同  -->
+
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:flipInterval="1000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img111" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img222" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img333" />
+
+    </ViewFlipper>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="prev"
+            android:text="&lt;" />
+
+        <Button
+            android:id="@+id/auto"
+            android:onClick="auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="自动播放" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="next"
+            android:text="&gt;" />
+    </LinearLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/img222"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"/>
+
+<!--   SeekBar（拖动条） 继承自 ProgressBar（进度条），进度条使用颜色填充，拖动条允许用户使用滑块，而且允许拖动    -->
+<!--   SeekBar 滑动的时候， 对应的progress值 是离散的整数，而不是连续的   -->
+    <SeekBar
+        android:id="@+id/seek_bar1"
+        android:max="255"
+        android:progress="125"
+        android:thumb="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <SeekBar
+        android:id="@+id/seek_bar2"
+        android:max="10"
+        android:progress="5"
+        android:tickMark="@drawable/tickmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<!--    tickMark  指定一个自定义刻度的图标  -->
+
+</LinearLayout> 

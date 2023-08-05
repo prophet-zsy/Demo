@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- 定义一个大环形进度条 -->
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Large"/>
+        <!-- 定义一个中等大小的环形进度条 -->
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!-- 定义一个小环形进度条 -->
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Small"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="任务完成的进度"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<!--  定义一个水平进度条  -->
+    <ProgressBar
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        style="@android:style/Widget.ProgressBar.Horizontal" />
+    <!--  定义一个水平进度条， 并改变外观  -->
+    <ProgressBar
+        android:id="@+id/bar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        android:progressTint="@color/colorRed"
+        android:progressBackgroundTint="@color/colorGreen"
+        style="@android:style/Widget.ProgressBar.Horizontal" />
+<!--     progressTint 进度色调， progressBackgroundTint 进度条背景色调， 只能设置颜色，不能设置图片     -->
+<!--    todo 目前尚未找到使用drawable元素装饰进度条的用法  -->
+
+</LinearLayout> 

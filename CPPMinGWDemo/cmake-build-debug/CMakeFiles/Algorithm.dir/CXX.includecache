@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/Algorithm/Main.cpp
+bits/stdc++.h
+C:/Users/admin/Desktop/Demo/CPPMinGWDemo/Algorithm/bits/stdc++.h
+

@@ -1,0 +1,3 @@
+"C:\software\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CGrammar.dir/objects.a
+C:\software\mingw64\bin\ar.exe cr CMakeFiles\CGrammar.dir/objects.a @CMakeFiles\CGrammar.dir\objects1.rsp
+C:\software\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\CGrammar.dir/objects.a -Wl,--no-whole-archive -o CGrammar.exe -Wl,--out-implib,libCGrammar.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CGrammar.dir\linklibs.rsp

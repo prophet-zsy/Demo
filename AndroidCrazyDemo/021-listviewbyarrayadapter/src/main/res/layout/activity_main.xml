@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--   纵向布局两个listView 最好固定一下高度，否则listView展示的元素多了之后，会把后面的listView挤出当前界面 -->
+
+<!--    设置使用红色分隔条-->
+    <ListView
+        android:id="@+id/list1"
+        android:divider="#f00"
+        android:dividerHeight="1dp"
+        android:headerDividersEnabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<!--    设置使用绿色分隔条-->
+    <ListView
+        android:id="@+id/list2"
+        android:divider="#0f0"
+        android:dividerHeight="1dp"
+        android:headerDividersEnabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout> 

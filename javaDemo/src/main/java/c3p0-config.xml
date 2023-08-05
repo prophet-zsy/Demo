@@ -1,0 +1,20 @@
+<c3p0-config>
+    <!-- c3p0连接池配置 -->
+    <named-config name="c3p0-config">
+        <!--默认是mysql数据库-->
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/db01</property>
+        <!-- 数据库的用户名  默认值：null -->
+        <property name="user">root</property>
+        <!-- 数据库的密码  默认值：null -->
+        <property name="password">1234qwer</property>
+
+        <!--初始化连接数  取值要在minPoolSize和maxPoolSize之间（可包含，闭区间） 默认值：3 -->
+        <property name="initialPoolSize">10</property>
+        <!-- 最大连接数 （连接池中的连接数不能超过maxPoolSize最大连接数） 默认值：15-->
+        <property name="maxPoolSize">50</property>
+        <!--最小连接数  默认值：3  -->
+        <property name="minPoolSize">5</property>
+
+    </named-config>
+</c3p0-config>

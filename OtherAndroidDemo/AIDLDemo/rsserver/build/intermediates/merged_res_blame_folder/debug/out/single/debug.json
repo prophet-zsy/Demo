@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.example.rsserver-merged_res-19:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.rsserver-main-21:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.rsserver-main-21:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.rsserver-main-21:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.rsserver-main-21:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.rsserver-pngs-14:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.rsserver-main-21:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.rsserver-main-21:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.rsserver-main-21:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.rsserver-main-21:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.rsserver-main-21:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.rsserver-main-21:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.rsserver-main-21:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.rsserver-main-21:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/layout_activity_ohter2.xml.flat",
+        "source": "com.example.rsserver-main-21:/layout/activity_ohter2.xml"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/layout_activity_main.xml.flat",
+        "source": "com.example.rsserver-main-21:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.rsserver-merged_res-19:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.rsserver-main-21:/mipmap-xhdpi/ic_launcher.webp"
+    }
+]

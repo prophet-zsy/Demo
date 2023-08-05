@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+<!--todo match_parent和wrap_content的对比-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <FrameLayout
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:background="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <FrameLayout
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:background="@color/colorAccent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+<!--                        todo 只要各级父view中有wrap_content，都会根据子view要求的大小酌情分配空间，因此wrap_content的元素会被子view撑开-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp">-->
+
+                    </FrameLayout>
+                </FrameLayout>
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp">
+            <FrameLayout
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:background="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <FrameLayout
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:background="@color/colorAccent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+<!--                        todo -->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp">-->
+
+                    </FrameLayout>
+                </FrameLayout>
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp">
+
+            <FrameLayout
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="5000dp"
+                android:layout_height="5000dp"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

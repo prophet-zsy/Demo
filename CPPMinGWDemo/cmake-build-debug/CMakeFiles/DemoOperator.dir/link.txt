@@ -1,0 +1,3 @@
+"C:\software\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\DemoOperator.dir/objects.a
+C:\software\mingw64\bin\ar.exe cr CMakeFiles\DemoOperator.dir/objects.a @CMakeFiles\DemoOperator.dir\objects1.rsp
+C:\software\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\DemoOperator.dir/objects.a -Wl,--no-whole-archive -o DemoOperator.exe -Wl,--out-implib,libDemoOperator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DemoOperator.dir\linklibs.rsp

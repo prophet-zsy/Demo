@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyView">
+        <attr name="xx" format="dimension"/>
+        <attr name="yy" format="dimension"/>
+    </declare-styleable>
+</resources>

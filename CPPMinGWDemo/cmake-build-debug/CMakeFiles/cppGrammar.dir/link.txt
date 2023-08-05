@@ -1,0 +1,3 @@
+"C:\software\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cppGrammar.dir/objects.a
+C:\software\mingw64\bin\ar.exe cr CMakeFiles\cppGrammar.dir/objects.a @CMakeFiles\cppGrammar.dir\objects1.rsp
+C:\software\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cppGrammar.dir/objects.a -Wl,--no-whole-archive -o cppGrammar.exe -Wl,--out-implib,libcppGrammar.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cppGrammar.dir\linklibs.rsp

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="320dp"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="280dp"/>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_gravity="center"
+        android:layout_width="240dp"
+        android:layout_height="240dp"/>
+    <TextView
+        android:id="@+id/text4"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/text5"
+        android:layout_gravity="center"
+        android:layout_width="160dp"
+        android:layout_height="160dp"/>
+    <TextView
+        android:id="@+id/text6"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+
+</FrameLayout>
